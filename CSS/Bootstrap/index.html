@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap CSS</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css
+    "> 
+    <link rel="stylesheet" href="style.css">
+    <!-- CDN- Content Delivery Network -->
+</head>
+<body>
+    <!-- Navbar Component -->
+    <nav class="navbar bg-primary navbar-expand-md" data-bs-theme="dark">
+    <div class="container-fluid">
+        <a href="#" class="navbar-brand">Bootstrap</a>
+        <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup">
+            <span class ='navbar-toggler-icon'></span>        
+        </button>
+        
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+            <a class="nav-item nav-link" href="#">Home</a>
+            <a class="nav-item nav-link" href="#">Contact</a>
+            <a class="nav-item nav-link" href="#">About Us</a>
+    </div>
+    </div>
+    <form class="d-flex">
+        <input class="form-control me-2" type="search" placeholder="Search"/>
+        <button class="btn btn-outline-light" type="submit">Search</button>
+    </form>
+    </div>
+        
+    </nav>
+    <div class="container-md">
+        <h2> Bootstrap Demo</h2>
+        <div class="card"style = "width:18rem">
+            <img src="photo.jpeg" class ='card-image-top'>
+            <div class="card-body">
+                <h5 class="card-title">Photography</h5>
+                <p class="'para-text">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem magnam fugiat incidunt nemo.
+                </p>
+                <a href="#" class="btn btn-primary">Know More</a>
+            </div>
+        </div>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae magnam explicabo quibusdam reiciendis libero. Quam qui incidunt perspiciatis ut, culpa ullam repellat dolorem natus at aliquam itaque reiciendis quae? Expedita.
+        Nisi qui odit doloribus quia velit alias commodi minima tempora voluptas, exercitationem, asperiores a quae? Eos distinctio repellat amet, pariatur dolor obcaecati beatae minus cumque laudantium incidunt quasi facilis earum!
+        Commodi minus nihil accusantium deleniti ipsum quae, consequuntur hic minima unde at? Corrupti ipsa minus excepturi quaerat natus illum placeat, impedit praesentium molestiae esse aliquid! Optio illo officiis dolores reiciendis.
+        Consequatur ex adipisci nihil suscipit placeat vel blanditiis molestias doloremque cupiditate. Voluptatem veniam dolorum nisi quasi amet repellendus omnis aut cumque veritatis totam ratione, pariatur eaque. Provident non dicta dolor!
+        Fugit atque modi perferendis qui maiores distinctio animi. Voluptas necessitatibus sint laborum dolorem labore nisi cum laudantium, nesciunt corporis quaerat, distinctio placeat itaque! Alias deleniti perspiciatis est voluptatum voluptas ducimus.</p>
+        <!-- Buttons using Bootstrap -->
+        <button class="btn btn-outline-info btn-lg">More Info</button>
+        <button class="btn btn-outline-success">More Info</button>
+        <button class="btn btn-danger">More Info</button>
+        <button class="btn btn-warning">More Info</button>
+        <button class="btn btn-primary">More Info</button>
+        <button class="btn btn-secondary">More Info</button>
+        <button class="btn btn-light">More Info</button>
+        <button class="btn btn-dark">More Info</button>
+        <br>
+        <!-- Notofications badges using bootstrap -->
+        <h3>Notifications 
+            <span class="badge bg-primary rounded-pill">20+</span>
+        </h3>
+        <br>
+        <button class="btn btn-primary">Followers
+            <span class="badge bg-secondary rounded-pill">100</span>
+        </button>
+        <br>
+        <!-- Alert Component using bootstrap -->
+        <div class="alert alert-danger">Download failed!</div>
+        <div class="alert alert-success alert-dismissible">Successfully Downloaded!
+            <button class="btn-close" data-bs-dismiss ='alert' ></button>
+        </div>
+        <!-- Button groups using bootstrap -->
+        <!-- Three individual button (Ungrouped) -->
+        <button class="btn btn-success">one</button>
+        <button class="btn btn-success">two</button>
+        <button class="btn btn-success">three</button>
+        <!-- Grouped Buttons -->
+        <div class="btn-group">
+        <button class="btn btn-success">one</button>
+        <button class="btn btn-outline-warning">two</button>
+        <button class="btn btn-secondary">three</button>
+        </div>
+<!-- Grid Layout -->
+<!-- <div class="container">
+    <div class="row">
+        <div class="col-md-2 bg-success">one</div>
+        <div class="col-md-8 bg-primary">two</div>
+        <div class="col-md-2 bg-danger">three</div>
+    </div> -->
+<!-- Forms -->
+<div class="conatiner">
+    <h2>Form Demo</h2>
+    <form>
+        <div class="row">
+            <div class="mb-3 col">
+                <label class="form-label" for="Email">Email</label>
+                <input type="text" placeholder="Email" class="form-control" id="'Email">
+                </div>
+                <div class="mb-3 col">
+                <label class="form-label" for="Password">Password</label>
+                <input type="password" placeholder="Password" class="form-control" id="'Password">
+            </div>
+
+        </div>
+       
+    <div class="mb-3">
+        <select class="form-select">
+            <option selected>Choose Your City</option>
+            <option value="1">Mumbai</option>
+            <option value="2">Pune</option>
+            <option value="3">Bangalore</option>
+        </select>
+    </div>
+    <!-- <div class="normal mb-3">
+        <input type="checkbox" id="agree">
+        <label id="agree">Agree</label>
+    </div>
+    <div class="mb-3 form-check">
+        <label id="agreebs" class="form-check-label">Agree</label>
+        <input type="checkbox" id="agreebs" class="form-check-input">
+    </div>
+    <div class="mb-3 form-check">
+        <label id="radiobs" class="form-check-label">Agree</label>
+        <input type="radio" id="radiobs" class="form-check-input">Yes, I am above 18 years of age
+    </div>
+         -->
+    </form>
+
+</div>
+
+
+
+
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js
+ "></script>
+</body>
+</html>
